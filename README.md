@@ -4,6 +4,7 @@ Sentinel-1 data acquisition in the mode of Interferometric Wide Swath(IW) and Ex
 
 ## How to perform incidence angle correction
 - **Provide calibrated Sentinel-1 data**
+
 The **scr/angle_correction.py** script requires a Sentinel-1 product that contains 3 bands
   - Co-polarized band (calibrated in db units)
   - Cross-polarized band (calibrated in db units)
