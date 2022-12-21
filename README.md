@@ -16,6 +16,7 @@ Sentinel-1 data acquisition in the mode of Interferometric Wide Swath(IW) and Ex
 
   Digitize points (e.g QGIS or ArcGIS) over the SAR scene from near to far range. Ideally, the points should be closely spaced. The more points are collected (very close to each other) the more accurate the angle correction will be. Ideally, the points should be digitized over the same landcover type to avoid any bias
 
+- **Run angle_correction script**
 
 ```
 usage: angle_correction.py [-h] 
