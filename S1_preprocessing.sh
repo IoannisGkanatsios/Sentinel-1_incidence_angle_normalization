@@ -1,3 +1,13 @@
+########################################################################################
+#############      How to run the script      ##################
+#
+# First of all, check the location where the gpt is isntalled in the system and change it
+# accordingly on the gptPath argument.
+#
+# bash S1_preprocessing.sh graphs/s1_preprocessing_ocean.xml raw aoi/aoi.txt output/
+#
+#########################################################################################
+
 
 gptPath=~/snap/bin/gpt
 graph="$1"
