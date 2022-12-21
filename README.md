@@ -5,12 +5,12 @@ Sentinel-1 data acquisition in the mode of Interferometric Wide Swath(IW) and Ex
 ## How to perform incidence angle correction
 - **Provide calibrated Sentinel-1 data**
 
-  The **scr/angle_correction.py** script requires a Sentinel-1 product that contains 3 bands
+  The `scr/angle_correction.py` script requires a Sentinel-1 product that contains 3 bands
   - Co-polarized band (calibrated in db units)
   - Cross-polarized band (calibrated in db units)
   - Incidence angle
 
-  If the Sentinel-1 data is not in the format described above, the user can run the bash script `S1_preprocessing.sh`. It takes the raw GRD Sentinel-1 data and follows a series of steps (based on the graphs created in SNAP) to pre-process the data. It outputs the pre-processed SAR image which contains the 3 bands mentioned above. There are two graphs in the **graphs** folder. The one named named **s1_preprocessing_land.xml** is used to pre-process Sentinel-1 data over land. The one named named **s1_preprocessing_ocean.xml** is used to pre-process Sentinel-1 data over ocean
+  If the Sentinel-1 data is not in the format described above, the user can run the bash script `S1_preprocessing.sh`. It takes the raw GRD Sentinel-1 data and follows a series of steps (based on the graphs created in SNAP) to pre-process the data. It outputs the pre-processed SAR image which contains the 3 bands mentioned above. There are two graphs in the `graphs` folder. The one named named `s1_preprocessing_land.xml` is used to pre-process Sentinel-1 data over land. The one named named `s1_preprocessing_ocean.xml` is used to pre-process Sentinel-1 data over ocean
   
 - **Collect points over Sentinel-1 swath**
 
