@@ -39,5 +39,8 @@ optional arguments:
 ```
 
 ## Results
+
+Figure (a) shows the linear regression **before** incidence angle normalization. Figure (b) shows the linear regression **after** incidence angle normalization
+
 ![angle_correction](https://user-images.githubusercontent.com/25709946/208913720-a63535ca-92e9-4f6e-88f2-cbbfa3cb9d10.png)
 
