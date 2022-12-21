@@ -18,7 +18,7 @@ Sentinel-1 data acquisition in the mode of Interferometric Wide Swath(IW) and Ex
 
 - **Run angle_correction script**
 
-Examples on how to run the script are given within the script
+  Examples on how to run the script are given within the script
 
 ```
 usage: angle_correction.py [-h] 
