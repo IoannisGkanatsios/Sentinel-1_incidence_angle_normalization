@@ -11,6 +11,10 @@ Sentinel-1 data acquisition in the mode of Interferometric Wide Swath(IW) and Ex
   - Incidence angle
 
   If the Sentinel-1 data is not in the format described above, the user can run the bash script `S1_preprocessing.sh`. It takes the raw GRD Sentinel-1 data and follows a series of steps (based on the graphs created in SNAP) to pre-process the data. It outputs the pre-processed SAR image which contains the 3 bands mentioned above. There are two graphs in the **graphs** folder. The one named named **s1_preprocessing_land.xml** is used to pre-process Sentinel-1 data over land. The one named named **s1_preprocessing_ocean.xml** is used to pre-process Sentinel-1 data over ocean
+  
+- **Collect points over Sentinel-1 swath**
+
+  Digitize points (e.g QGIS or ArcGIS) over the SAR scene from near to far range. Ideally, the points should be closely spaced. The more points are collected (very close to each other) the more accurate the angle correction will be. Ideally, the points should be digitized over the same landcover type to avoid any bias
 
 
 ```
