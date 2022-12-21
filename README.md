@@ -37,3 +37,7 @@ optional arguments:
   --ref_angle REF_ANGLE
                         Provide a value for incidence angle normalziation
 ```
+
+## Results
+![angle_correction](https://user-images.githubusercontent.com/25709946/208913720-a63535ca-92e9-4f6e-88f2-cbbfa3cb9d10.png)
+
