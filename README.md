@@ -24,8 +24,9 @@ Sentinel-1 data acquisition in the mode of Interferometric Wide Swath(IW) and Ex
 usage: angle_correction.py [-h] 
                            [-o OUTDIR] 
                            [-i LOAD_SAR] 
-                           [--vector VECTOR] 
                            [--ref_angle REF_ANGLE]
+                           [--linear LINEAR] 
+                           [--sqr_cosine]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -33,9 +34,11 @@ optional arguments:
                         Specify an output directory
   -i LOAD_SAR, --load_sar LOAD_SAR
                         Provide a path to the sar data
-  --vector VECTOR       Provide a path to the vector file (shapefile)
   --ref_angle REF_ANGLE
                         Provide a value for incidence angle normalziation
+  --linear LINEAR       Performs angle correction based on linear regression. It requires a shapefile (points) as an input. 
+                        Point data should be colected from near to far range
+  --sqr_cosine          Performs angle correction based on the square cosine
 ```
 
 ## Results
