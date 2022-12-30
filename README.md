@@ -37,8 +37,8 @@ optional arguments:
   --ref_angle REF_ANGLE
                         Provide a value for incidence angle normalziation
   --linear LINEAR       Performs angle correction based on linear regression. It requires a shapefile (points) as an input. 
-                        Point data should be colected from near to far range
-  --sqr_cosine          Performs angle correction based on the square cosine
+                        Point data should be colected from near to far range. It is more appropriate for oceonographic applications
+  --sqr_cosine          Performs angle correction based on the square cosine. Is it more appropriate for land applications
 ```
 
 ## Results
