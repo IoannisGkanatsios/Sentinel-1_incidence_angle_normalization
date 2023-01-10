@@ -35,7 +35,7 @@ optional arguments:
   -i LOAD_SAR, --load_sar LOAD_SAR
                         Provide a path to the sar data
   --ref_angle REF_ANGLE
-                        Provide a value for incidence angle normalziation
+                        Provide a value for incidence angle normalziation. If not provided, 33 degrees is the default
   --linear LINEAR       Performs angle correction based on linear regression. It requires a shapefile (points) as an input. 
                         Point data should be colected from near to far range. It is more appropriate for oceonographic applications
   --sqr_cosine          Performs angle correction based on the square cosine. Is it more appropriate for land applications
